@@ -26,7 +26,7 @@ export const Compania = () => {
   imageUrl={eje2}
   contenido="logo"
  
-  titulo="Dos principales vitaminas del banano"
+  titulo="Principales vitaminas del banano"
   parrafo="• Vitamina 6:"
   items={[
     "- Contribuye al metabolismo de proteínas y grasas.",
