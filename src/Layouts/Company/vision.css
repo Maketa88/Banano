@@ -46,7 +46,7 @@ h1 {
 
 /* Media query para pantallas más pequeñas */
 @media (max-width: 900px) {
-  .Imagen {
+  .Imagen,.responsive-image {
     max-width: 100%; /* Ajustamos las imágenes al 100% en pantallas pequeñas */
   }
 
