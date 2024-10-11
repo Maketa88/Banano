@@ -1,0 +1,20 @@
+.Icono{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 10px;
+  background-color: #0E273C;
+  
+
+}
+.iconos{
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+ 
+
+}
+.iconos:hover{
+  transform: scale(1.2);
+}

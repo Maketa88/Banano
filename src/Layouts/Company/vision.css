@@ -1,0 +1,71 @@
+.Imagen {
+ 
+  max-width: 40%;
+  opacity: 0.7;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease,
+    filter 0.3s ease;
+}
+
+.Imagen:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(161, 103, 165, 0.6);
+  opacity: 1;
+  filter: brightness(120%);
+}
+
+.countero {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  flex-wrap: wrap;
+  padding: 44px;
+  gap: 4rem;
+  border-bottom: 1px dotted #b0b0b0;
+  align-items: center;
+}
+
+.mision {
+  display: flex;
+  flex-direction: column;
+  max-width: 38%; 
+  gap: 1rem;
+}
+
+p {
+  font-size: 17px
+}
+
+p,
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 900px) {
+  .Imagen {
+    max-width: 100%; /* Ajustamos las imágenes al 100% en pantallas pequeñas */
+  }
+
+  .mision {
+    max-width: 100%; /* Elimina la restricción de ancho en pantallas pequeñas */
+  }
+
+  p {
+    font-size: 16px; /* Aseguramos un tamaño de fuente más pequeño en pantallas pequeñas */
+  }
+  
+}
+h1{
+  text-align: center;
+  font-size: 24px;
+}
+
+
+
+ul,p{
+  font-weight: 100;
+}
